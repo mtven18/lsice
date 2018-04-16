@@ -1,0 +1,138 @@
+.prod_container {
+	background-color: #01010266;
+	border-radius: 10px;
+	padding: 20px !important;
+}
+
+.img_prod {
+	padding-left: 0;
+}
+
+.img_prod img {
+	width: 100%;
+}
+
+.prod_info h3 {
+	color: white;
+	font-family: 'Fira Sans', sans-serif;
+	margin-top: 5px;
+}
+
+#name_prod {
+	margin-top: 0 !important;
+}
+
+.prod_info p {
+	color: white;
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 14px;
+}
+
+.prod_info span {
+	color: white;
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 14px;
+}
+
+.prod_info input {
+	color: white;
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 14px;
+	background-color: black;
+	width: 80px;
+	padding: 3px 2px 3px 10px;
+	border-radius: 6px;
+	border: 1px solid white;
+}
+
+.prod_info button {
+	width: 100%;
+	background-color: black;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+	vertical-align: middle;
+	border: 1px solid #ff002d;
+	border-radius: 6px;
+	margin-top: 10px;
+}
+
+.prod_info button img {
+	width: 25px;
+	height: 25px;
+	margin-top: -7px;
+}
+
+.prod_info button span {
+	color: white;
+	font-size: 16px;
+}
+
+.prod_info button:hover {
+	background-color: #01010266;
+	border-color: black;
+}
+
+.comments_cont {
+	padding: 0;
+	margin-top: 10px;
+}
+
+.meta_comment {
+	padding: 0;
+}
+
+.meta_comment img {
+	width: 100%;
+	background-color: white;
+}
+
+.comment {
+	padding: 0;
+}
+
+.all_comments_cont h3 {
+	color: white;
+	font-size: 18px;
+	font-family: 'Fira Sans', sans-serif;
+	margin-bottom: 20px;
+}
+
+#login {
+	font-size: 16px;
+	font-weight: 500;
+	color: white;
+	font-family: 'Fira Sans', sans-serif;
+	margin-bottom: 5px;
+}
+
+.comment_text {
+	text-align: justify;
+}
+
+#comment {
+	font-size: 14px;
+	color: white;
+	font-family: 'Fira Sans', sans-serif;
+}
+
+#time {
+	font-size: 14px;
+	color: white;
+	font-family: 'Fira Sans', sans-serif;
+	padding-top: 10px;
+}
+
+#add_comment {
+	font-family: 'Fira Sans', sans-serif;
+	background-color: white;
+	color: black;
+	border: 2px solid black;
+	border-radius: 6px;
+	margin-top: 20px;
+}
+
+#add_comment:hover {
+	background-color: #01010266;
+	color: white;
+}

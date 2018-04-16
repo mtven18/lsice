@@ -1,0 +1,27 @@
+.pay_container {
+	background-color: #01010266;
+	border-radius: 10px;
+	padding: 10px !important;
+}
+
+.pay_container h2 {
+	color: white;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	font-family: 'Fira Sans', sans-serif;
+}
+
+.pay_way {
+	background-color: white;
+	padding: 5px 15px;
+	border-radius: 6px;
+	margin: 8px 0;
+	border: 1px solid #ff002d;
+}
+
+.pay_way span {
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 15px;
+	color: black;
+}

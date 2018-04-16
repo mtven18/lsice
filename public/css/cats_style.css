@@ -1,0 +1,144 @@
+.cat_container h2 {
+	color: white;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	font-family: 'Fira Sans', sans-serif;
+}
+
+.podcats_cont {
+	text-align: center;
+}
+
+.literal {
+	margin-top: 10px;
+	color: #ff002d;
+	font-size: 20px;
+	font-weight: 900;
+}
+
+.subcat {
+	background-color: black;
+	padding: 5px;
+	border-radius: 6px;
+}
+
+.subcat a {
+	text-decoration: none;
+	color: white;
+}
+
+.subcat:hover {
+	cursor: pointer;
+	background-color: white;
+}
+
+.subcat:hover a {
+	color: black;
+}
+
+h4 {
+	color: white;
+	text-align: center;
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.product_container {
+	height: 280px;
+}
+
+.product_name {
+	border-radius: 0;
+}
+
+.client_panel_prodct {
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	background-color: black;
+	padding: 10px 10px;
+}
+
+.cart {
+	width: 30px;
+	height: 30px;
+}
+
+.price_cont {
+	padding: 0;
+}
+
+.price {
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.cart_prod_cont {
+	background-color: #57595a;
+	border-radius: 8px;
+	padding: 0;
+
+	text-align: center;
+}
+
+.product_container a:hover {
+	text-decoration: none;
+}
+
+.product_container:hover {
+	border: 2px solid #ff002d;
+	border-radius: 8px;
+}
+
+.product_container:hover .product_name {
+	background-color: black;
+}
+
+.product_container:hover .client_panel_prodct {
+	background-color: white;
+}
+
+.product_container:hover .price {
+	color: black;
+}
+
+.cart_prod_cont:hover {
+	background-color: black;
+}
+
+.pagination {
+	text-align: center;
+}
+
+.pagination ul li {
+	list-style-type: none;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	margin: 0;
+	padding: 0 10px;
+}
+
+.pagination ul li a {
+	text-decoration: none;
+	font-size: 18px;
+	color: black;
+	font-weight: 600;
+}
+
+.pagination ul li a:hover {
+	color: white;
+}
+
+.active a {
+	color: #ff002d !important;
+	font-weight: 800 !important;
+}
+
+.active a:hover {
+	cursor: default;
+	color: #ff002d;
+}

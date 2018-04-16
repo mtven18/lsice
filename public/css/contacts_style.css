@@ -1,0 +1,60 @@
+#certificate_img {
+	width: 460px;
+	height: 600px;
+}
+
+.bio_modal_dialog {
+	width: 480px;
+}
+
+.contacts_container {
+	background-color: #01010266;
+	border-radius: 10px;
+	padding: 10px !important;
+}
+
+.contacts_container h2 {
+	color: white;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 15px;
+}
+
+.contacts_container h4 {
+	color: white;
+	font-family: 'Fira Sans', sans-serif;
+	background-color: black;
+	border-radius: 10px;
+	padding: 5px;
+	padding-left: 10px;
+}
+
+.contacts_container h4 img {
+	width: 25px;
+	height: 25px;
+	margin-right: 5px;
+}
+
+.contacts_container p {
+	color: white;
+	padding-left: 10px;
+}
+
+.map {
+	padding: 0;
+	margin-bottom: 15px;
+}
+
+label {
+	color: white;
+}
+
+.back_message input {
+	background-color: #0101021a;
+	color: white;
+}
+
+textarea {
+	background-color: #0101021a !important;
+	color: white !important;
+}
