@@ -27,7 +27,7 @@ class RegisterController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/home';
+    protected $redirectTo = '/';
 
     /**
      * Create a new controller instance.
@@ -48,8 +48,12 @@ class RegisterController extends Controller
     protected function validator(array $data)
     {
         return Validator::make($data, [
-            'name' => 'required|string|max:255',
+            'first_name' => 'required|string|max:255',
+            'last_name' => 'required|string|max:255',
             'email' => 'required|string|email|max:255|unique:users',
+            'phone' => 'required|regex:/\d{6,18}/',
+            'address_1' => 'required|string|max:255',
+            'region' => 'required',
             'password' => 'required|string|min:6|confirmed',
         ]);
     }
@@ -62,10 +66,29 @@ class RegisterController extends Controller
      */
     protected function create(array $data)
     {
+        if(!array_key_exists('address_2', $data)){
+            $data['address_2'] = '';
+        }
+
+        if(!array_key_exists('company', $data)){
+            $data['company'] = '';
+        }
+
+        if(!array_key_exists('index', $data)){
+            $data['index'] = '';
+        }
+
         return User::create([
-            'name' => $data['name'],
+            'first_name' => $data['first_name'],
+            'last_name' => $data['last_name'],
             'email' => $data['email'],
             'password' => bcrypt($data['password']),
+            'phone' => $data['phone'],
+            'address_1' => $data['address_1'],
+            'address_2' => $data['address_2'],
+            'company' => $data['company'],
+            'index' => $data['index'],
+            'region_id' => $data['region'],
         ]);
     }
 }

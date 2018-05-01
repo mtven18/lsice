@@ -1,0 +1,42 @@
+.reg_cont {
+	background-color: #01010266;
+	margin-top: 20px;
+	border-radius: 6px;
+}
+
+.reg_info {
+	color: #fff;
+	text-align: center;
+	font-weight: 800;
+}
+
+label {
+	margin-top: 25px;
+	color: #fff;
+}
+
+.inputs_reg {
+	background-color: #0101021a;
+	color: white;
+	margin-top: 20px;
+}
+
+select option {
+	background-color: #000;
+	color: #fff;
+}
+
+select option:hover {
+	background-color: #fff;
+	color: #000;
+}
+
+.login_btn {
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.required_field {
+	color: #ff002d;
+}

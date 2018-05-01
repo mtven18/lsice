@@ -1,0 +1,38 @@
+.login_cont {
+	background-color: #01010266;
+	margin-top: 20px;
+	border-radius: 6px;
+}
+
+label {
+	margin-top: 25px;
+	color: #fff;
+}
+
+.inputs_login {
+	background-color: #0101021a;
+	color: white;
+	margin-top: 20px;
+}
+
+.login_btn {
+	width: 100%;
+	margin-top: 20px;
+}
+
+.forgot_or_reg {
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.forgot_or_reg a {
+	color: #fff;
+}
+
+.forgot_or_reg span {
+	color: #000;
+	margin-left: 5px;
+	margin-right: 5px;
+	font-weight: 700;
+}

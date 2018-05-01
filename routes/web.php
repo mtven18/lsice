@@ -13,6 +13,14 @@
 
 Route::get('/', 'MainController@index')->name('index');
 
-Route::get('/new', function () {
-    return view('hello');
-});
+Route::get('/delivery', 'MainController@delivery')->name('index.delivery');
+
+Route::get('/pay', 'MainController@pay')->name('index.pay');
+
+Route::get('/return', 'MainController@return')->name('index.return');
+
+Route::get('/contacts', 'MainController@contacts')->name('index.contacts');
+
+Route::post('/regions', 'MainController@regions')->name('index.regions');
+
+Route::auth();

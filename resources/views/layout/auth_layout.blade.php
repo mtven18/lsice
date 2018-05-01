@@ -167,79 +167,7 @@
 			</div>
 		</div>
 
-		<div class="col-md-12 content">
-			<div class="col-md-3 brands_container">
-				<div class="panel panel-default cats">
-					<div class="panel-heading">
-						<h2 class="panel-title">Бренды</h2>
-					</div>
-					<div class="panel-body">
-						<div class="list-group">
-							<a href="cats.php" class="list-group-item">KEMTNER<span class="badge">256</span></a>
-							<a href="cats.php" class="list-group-item">FORD<span class="badge">88</span></a>
-							<a href="cats.php" class="list-group-item">NISSAN<span class="badge">145</span></a>
-							<a href="cats.php" class="list-group-item">MOTORCRAFT<span class="badge">29</span></a>
-							<a href="cats.php" class="list-group-item">TOYOTA<span class="badge">20</span></a>
-							<a href="cats.php" class="list-group-item">MITSUBISHI<span class="badge">20</span></a>
-							<a href="cats.php" class="list-group-item">MAZDA<span class="badge">3</span></a>
-							<a href="cats.php" class="list-group-item">HONDA<span class="badge">9</span></a>
-							<a href="cats.php" class="list-group-item">GENERAL MOTORS<span class="badge">33</span></a>
-							<a href="cats.php" class="list-group-item">BMW<span class="badge">9</span></a>
-							<a href="cats.php" class="list-group-item">LAND ROVER<span class="badge">4</span></a>
-							<a href="cats.php" class="list-group-item">RENAULT<span class="badge">51</span></a>
-							<a href="cats.php" class="list-group-item">OPEL<span class="badge">5</span></a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-6">
-				<div class="container-fluid">
-					<div class="col-md-12" align="center">
-						<form class="form-inline" role="search">
-							<div class="form-group">
-								<input id="search_input" type="text" class="form-control search_in" placeholder="Поиск по артиклу...">
-			    					<button type="button" class="btn btn-search btn-default">
-			    						<span class="glyphicon glyphicon-search">
-			    					</button>
-							</div>
-						</form>
-					</div>
-				</div>
-
-				@yield('content')
-
-			</div>
-
-			<div class="col-md-3 right_sidebar">
-				<div class="container-fluid">
-
-					<a href="#" id="a_cart">
-						<div class="col-md-12 cart_container" align="center">
-							<span class="glyphicon glyphicon-shopping-cart"></span>
-							<span class="cart">&nbsp;&nbsp;Корзина(0)</span>
-						</div>
-					</a>
-
-					<div class="col-md-12 login_container">
-						<div align="center">
-							<span class="glyphicon glyphicon-user"></span>
-							<span id="span_in">&nbsp;&nbsp;Войти в личный кабинет:</span>
-							<form action="{{ route('login') }}" method="POST" role="form">
-								{{ csrf_field() }}
-								<div class="input-group input-group-sm login_input_container">
-									<input type="text" name="email" class="form-control" placeholder="Логин">
-								</div>
-								<div class="input-group input-group-sm login_input_container">
-									<input type="password" name="password" class="form-control" placeholder="Пароль">
-								</div>
-								<button type="submit" class="btn btn-default login_btn">Вход/Регистрация</button>
-							</form>
-						</div>
-					</div>
-				</div>
-			</div>
-
-		</div>
+		@yield('content')
 
 		<div class="col-md-12 footer">
 			<footer>
@@ -268,6 +196,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+
+    @yield('script')
 
 </body>
 </html>
